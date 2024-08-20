@@ -4,7 +4,7 @@ import { useState } from "react";
 const Header = () => {
 
   const [lang, setLang] = useState('Good morning')
-  const [font, setFont] = useState(24)
+  const [font, setFont] = useState(10)
 
   const increase = () => {
     setFont(font + 10)
